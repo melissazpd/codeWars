@@ -3,6 +3,7 @@ function firstNonConsecutive(arr) {
         const el = arr[i];
         const next = arr[i + 1];
 
+
         if (next - el !== 1) {
             return next;
         }
