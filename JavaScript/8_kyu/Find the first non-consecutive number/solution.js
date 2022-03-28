@@ -9,5 +9,3 @@ function firstNonConsecutive(arr) {
     }
     return null;
 }
-
-//git commit --amend --date="2022-03-25 13:00:00"
