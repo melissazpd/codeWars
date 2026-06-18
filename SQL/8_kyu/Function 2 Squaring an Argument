@@ -1,0 +1,14 @@
+/*
+Now you have to write a function that takes an argument and returns the square of it.
+
+--# write your SQL query here: 
+-- you are given a table 'square' with column 'n'
+-- return a table with this column
+-- and your result in a column named 'res'
+-- order the result by the column 'n' in increasing order
+*/
+
+SELECT n
+    , n*n AS res
+FROM square
+ORDER BY n;
